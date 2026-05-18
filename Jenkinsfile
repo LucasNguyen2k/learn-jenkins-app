@@ -11,7 +11,7 @@ pipeline {
             }
             steps {
                 sh '''
-                    echo "Hello world from Jenkins"'
+                    echo "Hello world from Jenkins"
                     whoami
                     ls -la
                     node --version
