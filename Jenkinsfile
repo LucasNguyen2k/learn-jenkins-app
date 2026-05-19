@@ -27,6 +27,7 @@ pipeline {
             steps {
                 sh '''
                     echo "Test stage"
+                    whoami
                 '''
             }
         }
